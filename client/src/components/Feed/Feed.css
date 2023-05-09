@@ -1,0 +1,21 @@
+.feeditem
+{
+    margin:1rem;
+    -webkit-box-shadow: 6px -15px 35px -15px rgba(122,111,122,1);
+    -moz-box-shadow: 6px -15px 35px -15px rgba(122,111,122,1);
+    box-shadow: 6px -15px 35px -15px rgba(122,111,122,1);
+}
+
+.likes{
+    color:blueviolet
+}
+.hearts{
+    color:red
+}
+
+.enter
+{-webkit-box-shadow: 6px -15px 61px -34px rgba(122,111,122,1);
+    -moz-box-shadow: 6px -15px 61px -34px rgba(122,111,122,1);
+    box-shadow: 6px -15px 61px -34px rgba(122,111,122,1);
+    
+}

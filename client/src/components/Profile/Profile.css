@@ -1,0 +1,105 @@
+.logosearch
+{
+    display:flex;
+    gap:.45rem;
+    padding:1rem
+    
+}
+.search{
+    display:flex;
+    background-color: rgb(253, 253, 253);
+    height:3rem;
+    
+  margin-top:0.45rem
+
+}
+
+.search>input{
+    width:12rem;
+    height:2.7rem;
+    
+    border:none;
+    outline:none;
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+    background-color: rgb(74, 88, 97);
+   
+}
+
+.sicon{
+    color:rgb(132, 132, 201);
+    background-color: rgb(110, 185, 185);
+    width:3rem;
+    padding:.1rem;
+    position: center;
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+opacity: 100%;
+   
+    
+
+}
+.search>input:hover{
+    background-color:whitesmoke;
+}
+.sicon:hover {
+cursor: pointer;
+color:black
+}
+
+
+
+.part1{
+    
+    color:aliceblue;
+    position:sticky;
+    display:flex;
+ 
+}
+
+.part2{
+    color:blanchedalmond
+}
+
+.searchbar{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    background-color:black;
+    opacity:100%;
+    position:fixed;
+    width:100vw;
+    z-index:999
+    
+    
+}
+
+.topbaricons{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.topbariconitems
+{
+    padding:0.75rem;
+
+}
+
+.iconbadge
+
+{
+    background-color: rgb(77, 163, 197);
+    color:black;
+   height:1.8rem;
+   width:1.8rem;
+    padding:0.3rem;
+    justify-self: center;
+    justify-content: center;
+    align-items:center;
+    border-radius:25rem;
+ display:flex;
+ position:absolute;
+ top:-0.2rem;
+   
+
+}
